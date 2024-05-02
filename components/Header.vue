@@ -5,6 +5,8 @@ const logger = useLogger('default.vue')
 
 const left: HorizontalNavigationLink[] = [
   { label: 'Home', icon: 'i-heroicons-home', to: '/' },
+  { label: 'Pong', icon: 'i-mdi-table-tennis', to: '/pong' },
+  { label: 'Tic tac toe', icon: 'i-ph-game-controller', to: '/tic-tac-toe' },
 ]
 
 const right: HorizontalNavigationLink[] = [

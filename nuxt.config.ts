@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
+    '@vueuse/nuxt',
   ],
   eslint: {
     config: {

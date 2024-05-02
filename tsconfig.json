@@ -1,4 +1,11 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": [
+    "@tsconfig/strictest/tsconfig.json",
+    "./.nuxt/tsconfig.json"
+  ],
+  "compilerOptions": {
+    /* Override */
+    "strictNullChecks": true
+  }
 }

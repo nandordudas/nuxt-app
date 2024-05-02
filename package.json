@@ -23,8 +23,13 @@
     "@antfu/eslint-config": "^2.16.1",
     "@nuxt/eslint": "^0.3.10",
     "@nuxt/ui": "^2.15.2",
+    "@total-typescript/ts-reset": "^0.5.1",
+    "@tsconfig/strictest": "^2.0.5",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
     "eslint": "^9.1.1",
     "eslint-plugin-format": "^0.1.1",
+    "lil-gui": "^0.19.2",
     "vue-tsc": "^2.0.16"
   }
 }

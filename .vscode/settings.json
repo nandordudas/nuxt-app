@@ -91,6 +91,7 @@
     "composables/**/*.ts": "${filename} · Composable",
     "layouts/**/*.vue": "${filename} · Layout",
     "pages/**/*.vue": "/${filename} · Page",
-    "server/api/**/*.ts": "/api/${filename} · Api"
+    "server/api/**/*.ts": "/api/${filename} · Api",
+    "types/*.d.ts": "${filename} · Dictionary"
   }
 }
